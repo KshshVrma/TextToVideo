@@ -1,5 +1,7 @@
 from manim import *
 
+
+# manim -pql manim.py HelloWorld
 class HelloWorld(Scene):
     def construct(self):
         square = Square()
